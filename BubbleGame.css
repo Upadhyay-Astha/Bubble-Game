@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(163, 231, 183);
+    align-items: center;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#panel{
+    background-color: white;
+    position:relative;
+    left:10%;
+    top: 10%;
+    height: 90vh;
+    width: 80vw;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.ptop{
+    background-color: rgb(73, 136, 60);
+    height: 20vh;
+    width: 100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9vw;
+}
+
+.ptop h1{
+    font-size: 2vw;
+    color: white;
+}
+.ptop h3{
+    font-weight: 500;
+    padding: 1vh 1vw;
+    background-color: aliceblue;
+    border-radius: 6px;
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    gap: 1vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.pbtm{
+    height: calc(100% - 20vh);
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    text-transform: capitalize;
+    overflow: hidden;
+}
+.bubble{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: rgb(64, 114, 85);
+    color: white;
+    margin: 4px;
+    text-align: center;
+    font-weight: 100;
+    cursor: pointer;
+}
+button{
+    height: 10vh;
+    width: 10vw;
+    text-align: center;
+    padding: 4px 4px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(67, 156, 100);
+    color: aliceblue;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.pbtm h1{
+    text-align: center;
+    padding: 4px 4px;
+    font-weight: 600;
+}
+.pbtm h3{
+    text-align: center;
+    padding: 4px 4px;
+    font-weight: 600;
+    margin: 4px;
+}
+.intro{
+    display: flex;
+    align-items: center;
+}
